@@ -1,0 +1,1 @@
+print (lambda a,A:(lambda b,B:B if len(B) <= 1 else a([b(b,ab)for ab in A(a,A(reversed,(lambda AB:zip(*[iter(AB)]*(len(AB)/2)))(B+"\xFF"*(len(B)%2))))]))(lambda b,B:B if len(B) <= 1 else a([b(b,ab)for ab in A(a,A(reversed,(lambda AB: zip(*[iter(AB)]*(len(AB)/2)))(B+"\xFF"*(len(B)%2))))]),raw_input("Plaintext:")))(''.join,map).replace("\xFF","")
